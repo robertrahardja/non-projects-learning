@@ -1,0 +1,44 @@
+/* Global settings for the entire website */
+:root {
+  /* Use system default fonts for better compatibility */
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* Space between lines of text */
+  line-height: 1.5;
+  /* Normal font thickness */
+  font-weight: 400;
+
+  /* Support both light and dark modes */
+  color-scheme: light dark;
+  /* Text color - slightly off-white for dark mode */
+  color: rgba(255, 255, 255, 0.87);
+  /* Dark background color */
+  background-color: #242424;
+
+  /* Make text look crisp and smooth on all devices */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Style the main body of the page */
+body {
+  /* Remove default spacing around the edges */
+  margin: 0;
+  /* Use flexbox for easy centering */
+  display: flex;
+  /* Center content both horizontally and vertically */
+  place-items: center;
+  /* Minimum width to prevent page from getting too narrow */
+  min-width: 320px;
+  /* Make body at least full screen height (100% viewport height) */
+  min-height: 100vh;
+}
+
+/* Style all main headings */
+h1 {
+  /* Make headings very large (3.2 times normal text size) */
+  font-size: 3.2em;
+  /* Tighter line spacing for large text */
+  line-height: 1.1;
+}
